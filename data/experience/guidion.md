@@ -2,22 +2,28 @@
 title: Code Juggling Acrobat
 company: Guidion
 timeFrom: 2017-11-01
+timeTo: 2022-06-30
 type: experience
 ---
 I originally started working with Guidion whilst I was consulting at Nextview
 around March '17.
 
-My largest achievements at Guidon so far:
-- Building a Financial integration that reliably works to process 10s of 
-  Millions of Euros per year
-- Championing SFDX and Packaging 2, gaining recognition from Salesforce Product 
-  Lines and influencing features for everyone
-- Building packagable components and generic utilies in soon to be released 
-  public repositories
+Largest achievements:
 
-At Guidion, we work in a very structured Scrum and Agile environment of 2 weeks, 
-where we constantly and consistently deliver quality features and improvements. 
-I have spent a large amount of time investing and helping our teams to develop 
-out our Agile and team strategies. In addition to this, I have owned large parts 
-of the system architecture, collaborating with the team to ensure our standards 
-are solid, and owned by everyone.
+- Building a Financial integration that reliably processes 10s of 
+  Millions of Euros per year.
+- Recognised by Salesforce Corporate Product team as a champion of their SFDX
+  and Packaging 2 changes (Bleeding edge).
+- Professionalised the Salesforce development industry by generating and
+  maintaining general use libraries and utilities
+
+Environment:
+
+- Agile software development using Scrum. 2 week sprints. ~15 Software Engineers.
+- ~800 userbase dealing with complex app business logic. Specifically materials
+  and product dependencies, completion gates, complex validations etc.
+- 10-20 million worth of revenue being generated through the code I wrote, thus
+  reliablility and traceability were key.
+- Most senior dev on staff. Accountable for overall software, system, and object
+  architecture, however preferred to delegate and rotate responsibility to 
+  ensure everyone was engaged
