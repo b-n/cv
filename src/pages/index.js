@@ -8,7 +8,7 @@ const Container = styled.div`
   width: 100%;
 `;
 
-export default ({data}) => (
+const Index = ({data}) => (
   <Layout>
     <Container>
       {data.posts.edges.map(({ node }, i) => (
@@ -66,3 +66,5 @@ query IndexPage {
   }
 }
 `;
+
+export default Index;

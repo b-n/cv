@@ -59,6 +59,11 @@ const Duration = styled.div`
   margin-bottom: 0.8em;
 `
 
+const formattedDate = (date) => {
+  const value = new Date(date);
+  return `${format(value, "MMM")} '${format(value, "yy")}`
+}
+
 const WorkHistory = ({html, company, title, timeFrom, timeTo}) => (
   <>
     <Container>
@@ -68,7 +73,7 @@ const WorkHistory = ({html, company, title, timeFrom, timeTo}) => (
         <Separator />
         <Company>{company}</Company>
       </HeadingWrapper>
-      <Duration>{format(timeFrom, 'MMM \'YY')} - {timeTo == null ? 'Present' : format(timeTo, 'MMM \'YY')}</Duration>
+      <Duration>{formattedDate(timeFrom)} - {timeTo == null ? 'Present' : formattedDate(timeTo)}</Duration>
       <div dangerouslySetInnerHTML={{ __html: html}} />
     </Container>
   </>
