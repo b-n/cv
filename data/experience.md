@@ -6,27 +6,29 @@ order: 2
 color: '#809dff'
 backcolor: '#fafaff'
 ---
-My exposure has been largely to Salesforce related technologies since 2011, 
-however in my spare time I focus largely on newer web technologies. I focus on
-the best technology for the task at hand, however I tend to come back to 
-React for my frontends, and I generally focus on Serverless and Microservice 
-Architectures (implemented through AWS, GCP, Openwhisk) for my back ends.
+The main technologies that I use daily (since 2020) include (but aren't
+limited to): Ruby, Ruby on Rails, GoLang, Kubernetes, Docker, Dockerised
+app development, Tilt, Nginx, GCP, etc.
 
-I prefer writing business logic rather than presentational layers, however in
-saying that, I am at home writing both Frontend and Backend code. I'm proficient
-in Javascript (ES6, ES.Next), however I have an interest in Python, Go, and C++ 
-too.
+My contributions to the open source realm are largely in Rust as those projects
+generally are targeting speed and memory optimizations.
 
-As for Salesforce technologies, I'm at home using Lightning, Visualforce, Apex, 
-SFDX, Packaging, and any other technologies Salesforce chooses to implement. 
-Generally speaking, I write a lot more Apex than anything else, but that is 
-largely due to the user stories I have been recently building.
+I feel at home in both Typed and Untyped code bases - prefering typed if and
+when available.
 
-I've also done a number of talks and presentations on a wide variety of topics 
-from Salesforce, Serverless, Women in Tech, to groups of people from 30 to 350.
+Prior to 2020, I was writing code and developing on the Salesforce.com
+ecosystem for the better part of 8 years - 6 of which as a full time software
+engineer. I moved on from Salesforce development due to the strict structure
+enforced by working in that ecosystem, wanting to use more modern and exciting
+technologies. The main other technologies I was investing in at that time was
+Serverless Architecture, specifically AWS provided.
 
-### Certifications
+Apart form the usual soft skills, I regularly:
 
-- Salesforce App Builder
-- Salesforce Platform Developer I
-- Salesforce Certified Developer (401)
+- Organise company internal tech talks, tech blogs etc.
+- Present technical talks internally to the company
+- Present at meetups (more Rust than Ruby)
+- Find ways to generate developer events such as Hackathons, etc
+- Actively post and engage with teams on Slack, creating OT channels to the
+  likes of #dotfiles, #side\_projects, #new\_emojis, #vacay\_vibes, anything
+  where there might be shared interests for people (and myself) to engage in.
