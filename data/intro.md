@@ -5,28 +5,27 @@ order: 1
 color: '#f1bd88'
 backcolor: '#fffdfa'
 ---
-Welkom!
+Hoi 👋! I'm Ben!
 
-I'm Ben, it's nice to meet you!
+Software Engineer and Dev ex enthusiast by day, Rustacean 🦀 hacker by night. 
 
-I'm a software developer at heart, and I just so happen to do this during the 
-day at work. I like to add something back to the world by making enterprise
-grade software that stops people from having to do monotonous jobs, freeing them
-up to do more important things.
+I like writing code, but I like optimizing developer work flows even more. I
+have a firm belief that a productive engineer is one that can just write code
+without their environment getting in the way. I also happen to enjoy giving
+back to the open source realm.
 
-I work largely with web technologies, but also play a bit with Integrated
-Circuits and the Internet of Things. I've been developing on Salesforce since
-2011, of which 4 years were in consultancies where I had exposure to a wide 
-variety of industries.
+I've worked on code bases of varying sizes and complexities, in the breadth of
+intertwined complex business logic with many compounding state machines, all
+the way to highly available micro services handling in the realms of 1000req/s.
+I always come back to finding ways to optimize work flows, and bringing
+engineers together in fun, new and creative ways to solve ~problems~ challenges.
 
 I am:
-- A New Zealander
-- Trying to become Dutch
-- A lover of all things Serverless
-- A Software/Solutions architect
-- Constantly looking for new things to learn
-- An all round pragmatist
-- A person that works well in teams, and enjoys Agile software development
+- Born in New Zealand 🇳🇿
+- A permanent resident in The Netherlands 🇳🇱
+- Open source enthusiast 🦄
+- Knowledge and technology sponge 🧽
+- A pragmatist at heart 💝
+- Active team member, needing a collaborative environment to be the most effective 💹
 
-This website serves to give you some more information about what I do, what I've 
-done, and where I want to go to.
+👇You'll find more about the things I've done and do below
