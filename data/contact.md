@@ -6,7 +6,7 @@ backcolor: '#fff'
 ---
 For any enquiries, please feel free to contact me through any of the following 
 mediums:
-- Email: [nayben@gmail.com](mailto:nayben@gmail.com?subject=Enquiry%20from%20your%20website)
+- Email: [nayben@gmail.com](mailto:nayben@gmail.com?subject=Hey)
 - Mobile: [+ 31 6 1427 2332](tel:+31614272332)
-- [Github](https://github.com/nzchicken)
+- [Github](https://github.com/b-n)
 - [Twitter](https://twitter.com/nzchicken)
