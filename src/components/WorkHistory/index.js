@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { format } from 'date-fns'
+import { format, differenceInMonths } from 'date-fns'
 
 const Container = styled.div`
   position: relative;
@@ -23,12 +23,30 @@ const Bar = styled.div`
   }
 `
 
-const HeadingWrapper = styled.div``
+const Separator = styled.span`
+  padding: 0px 5px;
+  &:before {
+    content: '//';
+    font-size: 1.3em;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
 
-const Company = styled.h3`
+const Heading = styled.h3``
+
+const JobTitle = styled.h3`
+  display: inline-block;
+  margin-top: 0.8em;
+  margin-bottom: 0;
+`
+
+const Company = styled.span`
   display: inline-block;
   font-style: italic;
   margin-top: 0.8em;
+  margin-bottom: 0;
 
   @media (max-width: 768px) {
     display: block;
@@ -38,45 +56,52 @@ const Company = styled.h3`
   }
 `
 
-const Separator = styled.div`
-  display: inline-block;
-  padding: 0px 5px;
-  &:before {
-    font-size: 1.3em;
-    content: '//';
-  }
-  @media (max-width: 768px) {
-    display: none;
-  }
-`
-
-const JobTitle = styled.h3`
-  display: inline-block;
-  margin-top: 0.8em;
-`
-
-const Duration = styled.div`
+const SubHeading = styled.div`
+  font-size: 0.8em;
   margin-bottom: 0.8em;
 `
 
-const formattedDate = (date) => {
-  const value = new Date(date);
-  return `${format(value, "MMM")} '${format(value, "yy")}`
+const plural = (value, text) => {
+  return `${value} ${text}${value == 0 || value > 1 ? 's' : ''}`
 }
 
-const WorkHistory = ({html, company, title, timeFrom, timeTo}) => (
-  <>
-    <Container>
-      <Bar />
-      <HeadingWrapper>
-        <JobTitle>{title}</JobTitle>
-        <Separator />
-        <Company>{company}</Company>
-      </HeadingWrapper>
-      <Duration>{formattedDate(timeFrom)} - {timeTo == null ? 'Present' : formattedDate(timeTo)}</Duration>
-      <div dangerouslySetInnerHTML={{ __html: html}} />
-    </Container>
-  </>
-)
+const formattedDate = (date) => {
+  return `${format(date, "MMM")} '${format(date, "yy")}`
+}
+
+const timeLength = (from, to) => {
+  const end = to == null ? new Date() : to
+
+  const totalMonths = differenceInMonths(end, from)
+  const years = Math.floor(totalMonths / 12)
+  const months = Math.floor(totalMonths % 12)
+  return `${plural(years, 'year')} ${plural(months, 'month')} ${to == null ? 'and counting' : ''}`
+}
+
+const timeRange = (from, to) => {
+  return `${formattedDate(from)} → ${to == null ? 'Present' : formattedDate(to)}`
+}
+
+const WorkHistory = ({html, company, location, title, timeFrom, timeTo}) => {
+  const from = new Date(timeFrom)
+  const to = timeTo == null ? null : new Date(timeTo)
+  console.log(title, from, to)
+  return (
+    <>
+      <Container>
+        <Bar />
+        <Heading>
+          <JobTitle>{title}</JobTitle>
+          <Separator />
+          <Company>{company}</Company>
+        </Heading>
+        <SubHeading>
+          {location} — {timeRange(from, to)} — {timeLength(from, to)}
+        </SubHeading>
+        <div dangerouslySetInnerHTML={{ __html: html}} />
+      </Container>
+    </>
+  )
+}
 
 export default WorkHistory

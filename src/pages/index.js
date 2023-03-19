@@ -57,6 +57,7 @@ query IndexPage {
         frontmatter {
           title
           company
+          location
           timeFrom
           timeTo
         }
