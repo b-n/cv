@@ -7,12 +7,12 @@ backcolor: '#fffdfa'
 ---
 Hoi 👋! I'm Ben!
 
-Software Engineer and Dev ex enthusiast by day, Rustacean 🦀 hacker by night. 
+Software Engineer and Dev ex enthusiast by day, Rustacean 🦀 hacker by night.
 
 I like writing code, but I like optimizing developer work flows even more. I
-have a firm belief that a productive engineer is one that can just write code
-without their environment getting in the way. I also happen to enjoy giving
-back to the open source realm.
+have a firm belief that a productive engineer has the right tools for the job,
+and those tools should help them to do the things they are paid to do. I also
+happen to enjoy giving back to the open source realm.
 
 I've worked on code bases of varying sizes and complexities, in the breadth of
 intertwined complex business logic with many compounding state machines, all
@@ -22,7 +22,7 @@ engineers together in fun, new and creative ways to solve ~problems~ challenges.
 
 I am:
 - Born in New Zealand 🇳🇿
-- A permanent resident in The Netherlands 🇳🇱
+- An EU permanent resident in The Netherlands 🇳🇱
 - Open source enthusiast 🦄
 - Knowledge and technology sponge 🧽
 - A pragmatist at heart 💝
