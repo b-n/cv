@@ -1,8 +1,9 @@
 ---
 title: Technical Architect
 company: Nextview
+location: Amsterdam, NL
 timeFrom: 2016-11-01
-timeTo: 2017-11-01
+timeTo: 2017-12-01
 type: experience
 ---
 Nextview (formerly Beethree) was my first job in The Netherlands. Nextview is a 
