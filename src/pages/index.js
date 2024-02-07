@@ -37,7 +37,7 @@ const Index = ({data}) => (
 
 export const query = graphql`
 query IndexPage {
-  posts: allMarkdownRemark(filter: { frontmatter: {type: { eq: "post" } } }, sort: { fields: [frontmatter___order], order: ASC}) {
+  posts: allMarkdownRemark(filter: { frontmatter: {type: { eq: "post" } } }, sort: { frontmatter: { order: ASC } }) {
     edges {
       node {
         frontmatter {
@@ -51,7 +51,7 @@ query IndexPage {
       }
     }
   }
-  experience: allMarkdownRemark(filter: { frontmatter: {type: { eq: "experience" } } }, sort: { fields: [frontmatter___timeFrom], order: DESC}) {
+  experience: allMarkdownRemark(filter: { frontmatter: {type: { eq: "experience" } } }, sort: { frontmatter: { timeFrom: DESC } }) {
     edges {
       node {
         frontmatter {
