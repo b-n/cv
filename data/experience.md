@@ -7,8 +7,8 @@ color: '#809dff'
 backcolor: '#fafaff'
 ---
 The main technologies that I use daily (since 2020) include (but aren't
-limited to): Ruby, Ruby on Rails, GoLang, Kubernetes, Docker, Dockerised
-app development, Tilt, Nginx, GCP, etc.
+limited to): Ruby, Ruby on Rails, GoLang, Kubernetes, Docker/Containers,
+Tilt, Nginx, GCP... and likely more.
 
 My contributions to the open source realm are largely in Rust as those projects
 generally are targeting speed and memory optimizations.
@@ -25,10 +25,10 @@ Serverless Architecture, specifically AWS provided.
 
 Apart form the usual soft skills, I regularly:
 
-- Organise company internal tech talks, tech blogs etc.
+- Organise company internal tech talks, tech blogs etc
 - Present technical talks internally to the company
-- Present at meetups (more Rust than Ruby)
+- Present technical talks external to the company - e.g. meetups, mostly in Rust
 - Find ways to generate developer events such as Hackathons, etc
-- Actively post and engage with teams on Slack, creating OT channels to the
-  likes of #dotfiles, #side\_projects, #new\_emojis, #vacay\_vibes, anything
-  where there might be shared interests for people (and myself) to engage in.
+- Activley promote and encourage remote/hybrid communication - mainly through
+  the means of [new] slack channels, organising and engaging with others in
+  social events, and always hopping on calls to pair with people to solve issues

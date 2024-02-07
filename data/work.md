@@ -5,17 +5,17 @@ order: 3
 color: '#7ef1b2'
 backcolor: '#f6fef9'
 ---
-🤞The above gave most of the answers. If you're here, it's just for the fun.
+🤞The above gave most of the answers. If you're here, you want to know more.
 
 Here's some things that make me most productive:
 
-- Having a peer at the same technical level as me (I need some technical
-  challenges).
-- Having a team that is proactively engaging and looking for things to do.
-- Delivering value regularly (at least every couple of days).
-- Having good developer tooling - or at least letting me fix this for everyone.
-- Having an open team environment, we are here to solve problems.
-- Flat heirarchy - we're all flesh and bones.
+- Delivering value regularly (production at least every couple of days)
+- Having a peer(s) at the same technical level as me (I need some technical
+  challenges)
+- Having a team that is proactively engaging and looking for things to do
+- Having good developer tooling - or at least letting me fix this for everyone
+- Having an open team environment, we are here to solve the same problems
+- Flat heirarchy - we're all flesh and bones
 
 Also, in my free time I like to contribute back in the OSS space. My main focus
 is towards [Artichoke](https://www.artichokeruby.org/) - Building a Ruby
